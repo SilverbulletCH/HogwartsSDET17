@@ -10,5 +10,9 @@ def add(a, b):
 # 测试用例命名规范
 # 文件要在test_开头，或者_test结尾
 # 类要以Test开头，方法要以test_开头
-def test_add():
+def test_add1():
     assert 2 == add(1, 1)
+
+
+def test_add2():
+    assert 4 == add(2, 2)
